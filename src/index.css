@@ -11,3 +11,48 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+label{
+  font-weight: 800;
+}
+
+.add-course, .add-module {
+  box-shadow: -10px 10px 30px rgba(150, 150, 253, 0.4);
+  padding: 2em;
+}
+
+table {
+  box-shadow: -10px 10px 30px rgba(150, 150, 253, 0.4);
+  padding: 2em;
+}
+
+.add-course p, .add-module p {
+  text-align: center;
+  padding: 1em 0;
+  font-size: 1.2em;
+}
+
+p.alert.alert-info{
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+input[type=radio] {
+  margin-top: 2em;
+  width: 1.5em;
+  height: 1.5em;
+}
+
+.modal-title {
+  font-size: large;
+  width: 100%;
+  font-weight: 800;
+  color: rgb(75, 75, 255);
+  text-align: center;
+  
+
+}
+
+.action {
+  cursor: pointer;
+}
